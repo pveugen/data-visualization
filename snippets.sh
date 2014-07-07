@@ -1,10 +1,10 @@
-# Split files:
-split -l 50000 activities_Washington-20140620.csv Washington/
+# Split files
+split -l 50000 activities.csv parts/
 
-# Rename all files in dir:
+# Rename all files in dir
 for i in *; do mv "$i" "$i.csv"; done
 
-# Merge individual activity files into one:
+# Merge individual activity files into one
 find . -name \*.csv\* -print0 | xargs -0 cat > merged.csv
 
 # Create a video out of a sequence of images
