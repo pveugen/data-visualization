@@ -6,6 +6,7 @@ Every day, people track millions of activities with Human. We visualized 7.5 Mil
 * How we built Human Cities in 10 days: http://blog.human.co/posts/human-cities.html
 
 
+## Code examples
 All GPS data is plotted in R, without any basemaps. 
 
 * Plot images per city: [cityPlot.R](cityPlot.R)
